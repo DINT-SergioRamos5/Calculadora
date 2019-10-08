@@ -20,7 +20,7 @@
             <ColumnDefinition></ColumnDefinition>
         </Grid.ColumnDefinitions>
         <Border Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="3"  BorderThickness="1" BorderBrush="Black" Margin="4">
-            <Viewbox HorizontalAlignment="Right"><TextBlock x:Name="TextoPrincipal" TextAlignment="Right"></TextBlock></Viewbox>
+            <Viewbox HorizontalAlignment="Right"><TextBlock x:Name="TextoPrincipal"></TextBlock></Viewbox>
         </Border>
         
         <Button Grid.Row="1" Grid.Column="0" Margin="5" Click="Button_Click" Tag="1">
